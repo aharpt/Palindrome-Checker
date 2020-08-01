@@ -3,7 +3,7 @@ function isPalindrome(word) {
     
     word = word.toLowerCase();
     
-    // regex expression Stack Overflow https://stackoverflow.com/questions/9364400/remove-not-alphanumeric-characters-from-string
+    // regex expression and word.replace Stack Overflow https://stackoverflow.com/questions/9364400/remove-not-alphanumeric-characters-from-string
     let newWord = word.replace(/[^0-9a-z]/gi, "");
     
     let palindrome = true;
