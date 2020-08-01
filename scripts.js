@@ -26,4 +26,4 @@ function isPalindrome(word) {
     return palindrome;
 }
 
-console.log(isPalindrome("EYe"));
+console.log(isPalindrome("eye"));
